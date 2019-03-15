@@ -1,0 +1,14 @@
+1. Мы бы хотели взглянуть на то, как вы верстаете - приведите, пожалуйста,
+   две-три ссылки на код, возможно даже на работающие сайты, которые используют
+   ваши шаблоны.
+
+   Работающие сайты:
+   setere.com - многостраничный сайт для компании, занимающейся разработкой ПО
+   btx24.com - лендинг для компании-франчайзи продукта Bitrix24
+   Стек: HTML5, CSS3, PostCSS plugins (Gulp as task-runner), css-animation, jQuery, js-libs
+
+   Репозитории проектов на github:
+   https://github.com/IPogorelova/OneTwo-Yeezy - тренировочная верстка макета с dribbble (https://dribbble.com/shots/5337629-OneTwo-Yeezy), сейчас в процессе
+   Стек: HTML5, CSS3, PostCSS plugins (Gulp as task-runner), BEM, Javascript
+   https://github.com/IPogorelova/KIT-group_1C - страница услуг 1С, предоставляемых компанией kit-group
+   Стек: HTML5, CSS3, PostCSS plugins (Gulp as task-runner), SVG, css-animations
