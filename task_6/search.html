@@ -5,6 +5,24 @@
     <title>Filter search</title>
 </head>
 <body>
+    <form>
+        <select id="fieldType">
+            <option name="fieldType" value="textField" selected>Text field</option>
+            <option name="fieldType" value="numberField">Number field</option>
+        </select>
+        <select id="filterOperation">
+            <option name="filterOperation" value="containing" selected>Containing</option>
+            <option name="filterOperation" value="exactlyMatching">Exactly matching</option>
+            <option name="filterOperation" value="beginsWith">Begins with</option>
+            <option name="filterOperation" value="endsWith">Ends with</option>
+        </select>
+        <input type="text">
+    </form>
 
+<script
+        src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 </html>
