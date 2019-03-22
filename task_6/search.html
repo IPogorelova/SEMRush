@@ -6,18 +6,24 @@
 </head>
 <body>
     <form>
-        <select id="fieldType">
-            <option name="fieldType" value="textField" selected>Text field</option>
-            <option name="fieldType" value="numberField">Number field</option>
-        </select>
-        <select id="filterOperation">
-            <!-- <option name="filterOperation" value="containing" selected>Containing</option>
-            <option name="filterOperation" value="exactlyMatching">Exactly matching</option>
-            <option name="filterOperation" value="beginsWith">Begins with</option>
-            <option name="filterOperation" value="endsWith">Ends with</option> -->
-        </select>
-        <input type="text" id="option">
+        <div class="condition-box">
+            <select id="fieldType">
+                <option name="fieldType" value="textField" selected>Text field</option>
+                <option name="fieldType" value="numberField">Number field</option>
+            </select>
+            <select id="filterOperation">
+                <!-- <option name="filterOperation" value="containing" selected>Containing</option>
+                <option name="filterOperation" value="exactlyMatching">Exactly matching</option>
+                <option name="filterOperation" value="beginsWith">Begins with</option>
+                <option name="filterOperation" value="endsWith">Ends with</option> -->
+            </select>
+            <input type="text" id="option">
+        </div>
+        <br>
         <button id="addCondition">+ Add condition</button>
+        <hr>
+        <button>Apply</button>
+        <button>Clear filter</button>
     </form>
 
 <script
