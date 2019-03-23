@@ -1,0 +1,28 @@
+select, input {
+    margin-bottom: 10px;
+    margin-right: 5px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.button {
+    background: white;
+    border: 1px solid #cccccc;
+    padding: 8px 25px;
+    border-radius: 4px;
+    color: #cccccc;
+}
+
+.button_blue {
+    background: #2c93df;
+    color: #ffffff;
+    border-color: #2c93df;
+}
+
+.button_border_none {
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+

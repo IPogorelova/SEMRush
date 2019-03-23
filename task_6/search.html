@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Filter search</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <form class="search-form" id="search-form">
@@ -19,14 +21,14 @@
                     <option value="endsWith">Ends with</option>
                 </select>
                 <input name="option" type="text" class="option">
-                <button class="removeFilter">X</button>
+                <button class="removeFilter button button_border_none">X</button>
             </div>
         </div>
         <br>
-        <button type="button" id="addCondition">+ Add condition</button>
+        <button type="button" id="addCondition" class="button button_border_none">+ Add condition</button>
         <hr>
-        <button type="submit" id="apply">Apply</button>
-        <button type="reset" id="clear">Clear filter</button>
+        <button type="submit" id="apply" class="button button_blue">Apply</button>
+        <button type="reset" id="clear" class="button">Clear filter</button>
     </form>
 
 <script

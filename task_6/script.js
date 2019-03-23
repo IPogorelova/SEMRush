@@ -53,7 +53,7 @@ $( document ).ready(function() {
             '                <option value="endsWith">Ends with</option>\n' +
             '            </select>\n' +
             '            <input name="option" type="text" class="option">\n' +
-            '            <button class="removeFilter">X</button>\n' +
+            '            <button class="removeFilter button button_border_none">X</button>\n' +
             '        </div>');
     })
 
