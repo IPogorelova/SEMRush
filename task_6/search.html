@@ -5,25 +5,28 @@
     <title>Filter search</title>
 </head>
 <body>
-    <form>
-        <div class="condition-box">
-            <select id="fieldType">
-                <option name="fieldType" value="textField" selected>Text field</option>
-                <option name="fieldType" value="numberField">Number field</option>
-            </select>
-            <select id="filterOperation">
-                <!-- <option name="filterOperation" value="containing" selected>Containing</option>
-                <option name="filterOperation" value="exactlyMatching">Exactly matching</option>
-                <option name="filterOperation" value="beginsWith">Begins with</option>
-                <option name="filterOperation" value="endsWith">Ends with</option> -->
-            </select>
-            <input type="text" id="option">
+    <form class="search-form" id="search-form">
+        <div class="search-conditions">
+            <form class="condition-box">
+                <select name="fieldType" class="fieldType">
+                    <option value="textField" selected>Text field</option>
+                    <option value="numberField">Number field</option>
+                </select>
+                <select name="filterOperation" class="filterOperation">
+                    <option value="containing" selected>Containing</option>
+                    <option value="exactlyMatching">Exactly matching</option>
+                    <option value="beginsWith">Begins with</option>
+                    <option value="endsWith">Ends with</option>
+                </select>
+                <input name="option" type="text" class="option">
+                <button class="removeFilter">X</button>
+            </form>
         </div>
         <br>
-        <button id="addCondition">+ Add condition</button>
+        <button type="button" id="addCondition">+ Add condition</button>
         <hr>
-        <button>Apply</button>
-        <button>Clear filter</button>
+        <button type="submit" id="apply">Apply</button>
+        <button type="reset" id="clear">Clear filter</button>
     </form>
 
 <script
